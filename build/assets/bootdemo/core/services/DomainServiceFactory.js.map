@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"DomainServiceFactory.js",
+"lineCount":2,
+"mappings":"A;AAMC,SAAQ,EAAG,CAMRA,QAASA,EAAoB,CAACC,CAAD,CAAY,CACrC,MAAO,SAAQ,CAACC,CAAD,CAAMC,CAAN,CAAqBC,CAArB,CAA8BC,CAA9B,CAAuC,CAClD,IAAIC,EAAkB,CAAC,OAAU,CAACC,OAAQ,KAAT,CAAX,CAA4B,KAAQ,CAACA,OAAQ,KAAT,CAAgBC,QAAS,CAAA,CAAzB,CAApC,CACtBC,QAAAC,OAAA,CAAeJ,CAAf,CAAgCF,CAAhC,CAEA,OAAOH,EAAA,CACNC,CADM,CAEHC,CAFG,EAEc,IAFd,CAGHG,CAHG,CAIHD,CAJG,EAIQ,EAJR,CAJ2C,CADjB,CALzCL,CAAAW,QAAA,CAA+B,CAAC,WAAD,CAC/BF,QAAAG,OAAA,CACY,eADZ,CAAAC,QAAA,CAEa,sBAFb,CAEqCb,CAFrC,CAFQ,CAAX,CAAA;",
+"sources":["DomainServiceFactory.unminified.js"],
+"names":["DomainServiceFactory","$resource","url","paramDefaults","actions","options","resourceActions","method","isArray","angular","extend","$inject","module","factory"]
+}

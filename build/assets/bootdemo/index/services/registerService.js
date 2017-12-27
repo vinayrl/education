@@ -1,0 +1,3 @@
+//# sourceMappingURL=registerService.js.map
+(function(){var b=function(b){return{register:function(a){console.log("Username : ",a.username);console.log("Password : ",a.password);a="j_username="+encodeURIComponent(a.username)+"&j_password="+encodeURIComponent(a.password);return b.post("/boot-demo-0.1.0/user/register",a,{headers:{"Content-Type":"application/x-www-form-urlencoded"}}).then(function(a){console.log("JSON in Login : "+JSON.stringify(a.data));return a.data})}}};b.$inject=["$http"];angular.module("bootdemo.index").factory("registerService",
+b)})();

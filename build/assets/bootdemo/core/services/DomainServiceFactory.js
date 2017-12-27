@@ -1,0 +1,2 @@
+//# sourceMappingURL=DomainServiceFactory.js.map
+(function(){function a(a){return function(c,d,e,f){var b={update:{method:"PUT"},list:{method:"GET",isArray:!0}};angular.extend(b,e);return a(c,d||null,b,f||{})}}a.$inject=["$resource"];angular.module("bootdemo.core").factory("DomainServiceFactory",a)})();

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"routes.js",
+"lineCount":3,
+"mappings":"A;AAEC,SAAQ,EAAG,CAEXA,OAAAC,OAAA,CAAe,gBAAf,CAAAC,OAAA,CACQ,CAAC,gBAAD,CAAmB,oBAAnB,CAAyC,QAAQ,CAACC,CAAD,CAAiBC,CAAjB,CAAoC,CAC5FA,CAAAC,UAAA,CAA6B,GAA7B,CACAF,EAAAG,MAAA,CACQ,OADR,CACiB,CACfC,IAAK,GADU,CAEfC,YAAa,+DAFE,CAGfC,WAAY,uBAHG,CADjB,CAAAH,MAAA,CAMQ,OANR,CAMiB,CACfC,IAAK,QADU,CAEfC,YAAa,6DAFE,CAGfC,WAAY,yBAHG,CANjB,CAAAH,MAAA,CAWQ,UAXR,CAWoB,CAClBC,IAAK,WADa,CAElBC,YAAa,gEAFK;AAGlBC,WAAY,2BAHM,CAXpB,CAF4F,CAArF,CADR,CAFW,CAAX,CAAA;",
+"sources":["routes.unminified.js"],
+"names":["angular","module","config","$stateProvider","$urlRouterProvider","otherwise","state","url","templateUrl","controller"]
+}

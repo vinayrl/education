@@ -1,0 +1,3 @@
+//# sourceMappingURL=routes.js.map
+(function(){angular.module("bootdemo.home").config(["$stateProvider","$urlRouterProvider",function(c,b){b.otherwise("/");c.state("home",{url:"/",templateUrl:"/boot-demo-0.1.0/assets/bootdemo/home/templates/home.html",controller:"HomeController as ctrl"}).state("logout",{url:"/logout",onEnter:["homeService","$location","$rootScope","$cookies","$window",function(a,c,b,d,e){a.logout().then(function(a){b.authenticated=!1;d.remove("authenticated");e.location.href="/boot-demo-0.1.0"})}],controller:["$state",
+function(a){a.go("home");$location.path("home");location.reload()}]})}])})();

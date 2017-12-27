@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"routes.js",
+"lineCount":3,
+"mappings":"A;AACC,SAAQ,EAAG,CAERA,OAAAC,OAAA,CAAe,eAAf,CAAAC,OAAA,CACM,CAAC,gBAAD,CAAmB,oBAAnB,CAAyC,QAAQ,CAACC,CAAD,CAAiBC,CAAjB,CAAqC,CAE7FA,CAAAC,UAAA,CAA6B,GAA7B,CAEAF,EAAAG,MAAA,CACQ,MADR,CACgB,CACdC,IAAK,GADS,CAEdC,YAAa,2DAFC,CAGCC,WAAY,wBAHb,CADhB,CAAAH,MAAA,CAMQ,QANR,CAMkB,CAChBC,IAAK,SADW,CAEhBG,QAAS,CAAC,aAAD,CAAgB,WAAhB,CAA6B,YAA7B,CAA2C,UAA3C,CAAuD,SAAvD,CAAkE,QAAQ,CAACC,CAAD,CAAcC,CAAd,CAAyBC,CAAzB,CAAqCC,CAArC,CAA+CC,CAA/C,CAAwD,CAOvIJ,CAAAK,OAAA,EAAAC,KAAA,CANwBC,QAAQ,CAACC,CAAD,CAAM,CACrCN,CAAAO,cAAA,CAA2B,CAAA,CAC9BN,EAAAO,OAAA,CAAgB,eAAhB,CACAN,EAAAO,SAAAC,KAAA,CAAwB,kBAHgB,CAMtC,CAPuI,CAAlI,CAFO,CAWhBd,WAAY,CAAC,QAAD;AAAW,QAAQ,CAACe,CAAD,CAAS,CAClCA,CAAAC,GAAA,CAAU,MAAV,CACAb,UAAAc,KAAA,CAAe,MAAf,CACAJ,SAAAK,OAAA,EAHkC,CAA5B,CAXI,CANlB,CAJ6F,CAAtF,CADN,CAFQ,CAAX,CAAA;",
+"sources":["routes.unminified.js"],
+"names":["angular","module","config","$stateProvider","$urlRouterProvider","otherwise","state","url","templateUrl","controller","onEnter","homeService","$location","$rootScope","$cookies","$window","logout","then","onUserLogoutComplete","data","authenticated","remove","location","href","$state","go","path","reload"]
+}

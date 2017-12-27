@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Spring Boot - Angular Routing</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<asset:stylesheet href="materialize/css/materialize.min.css" />
+<link rel="stylesheet"
+	href="assets/materialize/css/materialize.min.css" />
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet">
+<style>
+.bullet-list li{
+	    list-style-type: disc;
+}
+.arrow-up {
+     width: 0;
+     height: 0;
+     border-left: 5px solid transparent;
+     border-right: 5px solid transparent;
+     border-bottom: 10px solid black;
+     display:inline-block;
+}
+
+/*This class displays the DOWN arrow*/
+.arrow-down {
+     width: 0;
+     height: 0;
+     border-left: 5px solid transparent;
+     border-right: 5px solid transparent;
+     border-top: 10px solid black;
+     display:inline-block;
+}
+	  body {
+		display: flex;
+		min-height: 100vh;
+		flex-direction: column;
+	}
+
+	main {
+		flex: 1 1 auto;
+	}
+</style>
+<script type="text/javascript">
+	window.contextPath = "${request.contextPath}";
+</script>
+</head>
+<body ng-app="home">
+
+	<!-- <ul class="nav navbar-nav navbar-collapse">
+				    <li ng-repeat="item in menu"><a href="#{{item.route}}">{{item.title}}</a> 
+				    </li>
+				</ul> -->
+<header>
+	<nav>
+		<div class="container">
+			<div class="nav-wrapper">
+				<a href="#!" class="brand-logo">Spring Boot</a>
+
+				<ul class="right hide-on-med-and-down">
+					<li><a class="dropdown-button" href="#!"
+						data-activates="dropdown2">Task<i class="material-icons right">arrow_drop_down</i></a>
+						<ul id="dropdown2" class="dropdown-content">
+							<li><a href="#task/create">Create</a></li>
+							<li><a href="#task">List</a></li>
+							<li class="divider"></li>							
+							<li><a href="#/">Home</a></li>
+						</ul>
+					</li>					
+					<li><a class="dropdown-button" href="#!"
+						data-activates="dropdown1">User<i class="material-icons right">arrow_drop_down</i></a>
+						<ul id="dropdown1" class="dropdown-content">
+							<li><a href="#user/create">Create</a></li>
+							<li><a href="#user">List</a></li>
+							<li class="divider"></li>							
+							<li><a href="#/">Home</a></li>
+						</ul>
+					</li>					
+					<li ng-if="!item.subItems">						
+						<a class="dropdown-button" href="#logout">Logout</a>						
+					</li>
+				</ul>				
+			</div>
+		</div>
+	</nav>
+</header>
+<main>
+	<div class="row">
+	
+	  <div class="col s2">
+        <!-- Grey navigation panel -->
+		<div class="collection">
+			<a href="#!" class="collection-item">Link1</a>
+			<a href="#Link 2" class="collection-item active">
+			    <!--<i class="small material-icons">view_list</i> -->
+				Link2
+			</a>
+			<a href="#Link3" class="collection-item">Link 3</a>
+			<a href="#Link4" class="collection-item">Link 4</a>
+		</div>
+      </div>
+
+
+      <div class="col s10 green lighten-8">
+			<div ui-view></div>
+      </div>
+	</div>
+</main>
+	<div class="page-footer blue lighten-2" role="contentinfo" >
+	     <div class="footer-copyright" ">
+            <div class="container" >
+			   &copy; 2017 Copyright NNS Inc. All right reserved.
+            </div>
+          </div>
+	</div>
+
+	<script type="application/javascript" src="assets/jquery/jquery.js"></script>
+	<script type="application/javascript" src="assets/bootdemo/home.js"></script>
+	<script type="application/javascript"
+		src="assets/materialize/js/materialize.min.js"></script>
+
+	<script>
+		$(function() {
+			$(".dropdown-button").dropdown();
+		})
+	</script>
+</body>
+</html>
+
+
+

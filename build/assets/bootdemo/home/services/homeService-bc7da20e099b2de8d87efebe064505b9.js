@@ -1,0 +1,2 @@
+//# sourceMappingURL=homeService.js.map
+(function(){var a=function(a){return{logout:function(){return a.post("/boot-demo-0.1.0/user/logout").then(function(a){console.log("JSON in Logout : "+JSON.stringify(a.data));return a.data})}}};a.$inject=["$http"];angular.module("bootdemo.home").factory("homeService",a)})();

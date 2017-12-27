@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"indexService.js",
+"lineCount":2,
+"mappings":"A;AAAC,SAAQ,EAAG,CACR,IAAIA,EAAeA,QAAS,CAACC,CAAD,CAAQ,CAmBhC,MAAO,CACNC,MAlBQA,QAAe,CAACC,CAAD,CAAc,CAE9BC,CAAAA,CAAO,aAAPA,CAAuBC,kBAAA,CAAmBF,CAAAG,SAAnB,CAAvBF,CACA,cADAA,CACiBC,kBAAA,CAAmBF,CAAAI,SAAnB,CAErB,OAAON,EAAAO,KAAA,CAAW,6BAAX,CAA0CJ,CAA1C,CAAgD,CACnDK,QAAS,CACL,eAAgB,mCADX,CAD0C,CAAhD,CAAAC,KAAA,CAIC,QAAQ,CAACC,CAAD,CAAW,CAChCC,OAAAC,IAAA,CAAY,kBAAZ,CAAiCC,IAAAC,UAAA,CAAeJ,CAAAP,KAAf,CAAjC,CACA,OAAOO,EAAAP,KAFyB,CAJpB,CAL2B,CAiB/B,CAnByB,CAwBpCJ,EAAAgB,QAAA,CAAuB,CAAC,OAAD,CAGvBC,QAAAC,OAAA,CACY,gBADZ,CAAAC,QAAA,CAEa,cAFb,CAE6BnB,CAF7B,CA5BQ,CAAX,CAAA;",
+"sources":["indexService.unminified.js"],
+"names":["indexService","$http","login","credentials","data","encodeURIComponent","username","password","post","headers","then","response","console","log","JSON","stringify","$inject","angular","module","factory"]
+}

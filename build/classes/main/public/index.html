@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Spring Boot - Angular Routing</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- <asset:stylesheet href="materialize/css/materialize.min.css" /> -->
+<link rel="stylesheet" href="assets/materialize/css/materialize.min.css" />
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet">
+<style>
+.bullet-list li {
+	list-style-type: disc;
+}
+
+.numbered-list li {
+	list-style-type: number;
+}
+</style>
+<script type="text/javascript">
+	window.contextPath = "${request.contextPath}";
+	alert(window.contextPath);
+</script>
+
+<style>
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+}
+</style>
+</head>
+<body ng-app="bootdemo">
+	<header>
+		<nav>
+			<div class="container">
+				<div class="nav-wrapper">
+					<a href="#!" class="brand-logo">Spring Boot</a>
+					<ul class="right hide-on-med-and-down ng-scope" menu-data="">
+						<li><a href="#login">Login</a></li>
+						<li><a href="#register">Register</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<main>
+	<div class="container">
+		<div ui-view></div>
+	</div>
+	</main>
+
+	<footer class="page-footer">
+		<div class="container">&copy; 2017 Copyright NNS Inc. All right
+			reserved.</div>
+	</footer>
+
+
+	<script type="application/javascript" src="assets/jquery/jquery.js"></script>
+	<script type="application/javascript" src="assets/bootdemo/app.js"></script>
+	<script type="application/javascript"
+		src="assets/materialize/js/materialize.min.js"></script>
+</body>
+</html>
+
+
+

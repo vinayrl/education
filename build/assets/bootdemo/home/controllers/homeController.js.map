@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"homeController.js",
+"lineCount":2,
+"mappings":"A;AAKC,SAAQ,EAAG,CAER,IAAIA,EAAiBA,QAAS,CAACC,CAAD,CAAc,EAG5CD,EAAAE,QAAA,CAAyB,CAAC,aAAD,CAEzBC,QAAAC,OAAA,CACY,eADZ,CAAAC,WAAA,CAEgB,gBAFhB,CAEkCL,CAFlC,CAPQ,CAAX,CAAA;",
+"sources":["homeController.unminified.js"],
+"names":["HomeController","homeService","$inject","angular","module","controller"]
+}

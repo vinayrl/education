@@ -1,0 +1,52 @@
+<div class="row" style="margin: 0 auto; width: 60%;">
+	<form class="col s12">
+		<div class="col s12 m12">
+			<div class="card" style="padding: 20px">
+				<div class="card-title" style="margin-left: 7px; margin-right: 7px;">Register
+					New User</div>
+				<div class="row" style="margin-left: 7px; margin-right: 7px;">
+					<div class="input-field col s6">
+						<input id="firstname" type="text" class="validate"
+							ng-model="reg.credentials.firstname" required="required">
+						<label for="firstname">First Name</label>
+					</div>
+					<div class="input-field col s6">
+						<input id="lastname" type="text" class="validate"
+							ng-model="reg.credentials.lastname" required="required">
+						<label for="firstname">Last Name</label>
+					</div>
+				</div>
+				<div class="row" style="margin-left: 7px; margin-right: 7px;">
+					<div class="input-field col s6">
+						<input id="username" type="text" class="validate"
+							ng-model="reg.credentials.username" required="required">
+						<label for="firstname">E-mail</label>
+					</div>
+					<div class="input-field col s6">
+						<input id="mobile" type="text" class="validate"
+							ng-model="reg.credentials.mobile" required="required"> <label
+							for="mobile">Mobile Number</label>
+					</div>
+				</div>
+				<div class="row" style="margin-left: 7px; margin-right: 7px;">
+					<div class="input-field col s6">
+						<input id="password" type="password" class="validate"
+							ng-model="reg.credentials.password" required="required">
+						<label for="password">Enter Password</label>
+					</div>
+					<div class="input-field col s6">
+						<input id="password2" type="password" class="validate"
+							ng-model="reg.credentials.password2" required="required">
+						<label for="password">Re-Enter Password</label>
+					</div>
+				</div>
+				<div class="row center-align">
+					<input class="btn col s4" type="submit" ng-click="reg.register()"
+						value="Register" style="margin-left: 16px;" /> <input
+						class="btn col s4" type="button" ng-click="reg.reset()"
+						value="Reset" style="margin-left: 16px;" />
+				</div>
+			</div>
+		</div>
+	</form>
+</div>

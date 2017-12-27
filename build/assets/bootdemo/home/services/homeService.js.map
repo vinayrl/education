@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"homeService.js",
+"lineCount":2,
+"mappings":"A;AAEC,SAAQ,EAAG,CAER,IAAIA,EAAcA,QAAS,CAACC,CAAD,CAAQ,CAYlC,MAAO,CACHC,OAXSA,QAAgB,EAAG,CAE/B,MAAOD,EAAAE,KAAA,CAAW,8BAAX,CAAAC,KAAA,CACA,QAAQ,CAACC,CAAD,CAAW,CACxBC,OAAAC,IAAA,CAAY,mBAAZ,CAAkCC,IAAAC,UAAA,CAAeJ,CAAAK,KAAf,CAAlC,CACA,OAAOL,EAAAK,KAFiB,CADnB,CAFwB,CAUzB,CAZ2B,CAgBnCV,EAAAW,QAAA,CAAsB,CAAC,OAAD,CAEtBC,QAAAC,OAAA,CACY,eADZ,CAAAC,QAAA,CAEa,aAFb,CAE4Bd,CAF5B,CApBQ,CAAX,CAAA;",
+"sources":["homeService.unminified.js"],
+"names":["homeService","$http","logout","post","then","response","console","log","JSON","stringify","data","$inject","angular","module","factory"]
+}
